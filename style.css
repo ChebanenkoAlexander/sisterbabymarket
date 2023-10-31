@@ -17,10 +17,9 @@ body{
     height: 100vh;
 }
 .cards {
-    width: 95%;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto;
+    justify-content: center;
 }
 
 .card{
@@ -61,6 +60,7 @@ body{
     .cards {
         flex-direction: column;
     }
+
 }
 
 @keyframes gradient {
