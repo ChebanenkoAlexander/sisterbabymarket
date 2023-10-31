@@ -17,7 +17,7 @@ body{
     height: 100vh;
 }
 .cards {
-    width: 80%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
@@ -57,6 +57,11 @@ body{
 .img6 {
     background: url("img/photo_2023-10-31\ 21.47.38.jpeg")center/cover no-repeat;
 }
+@media (max-width: 700px){
+    .cards {
+        flex-direction: column;
+    }
+}
 
 @keyframes gradient {
 	0% {
@@ -69,3 +74,5 @@ body{
 		background-position: 0% 50%;
 	}
 }
+
+
